@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-11-26T10:55:47.195Z",
+        "line": 4,
+        "name": "Addition of two numbers",
+        "description": "",
+        "id": "calculator-feature;addition-of-two-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1462400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter 45 for calculation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "45",
+                  "offset": 8
+                }
+              ],
+              "location": "StepdefGit.enter1(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 147200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I press add",
+            "match": {
+              "arguments": [
+                {
+                  "val": "add",
+                  "offset": 8
+                }
+              ],
+              "location": "StepdefGit.add(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I again enter 65 for calculation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "65",
+                  "offset": 14
+                }
+              ],
+              "location": "StepdefGit.enter2(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I press1 equal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "equal",
+                  "offset": 9
+                }
+              ],
+              "location": "StepdefGit.press(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The result should be 110",
+            "match": {
+              "arguments": [
+                {
+                  "val": "110",
+                  "offset": 21
+                }
+              ],
+              "location": "StepdefGit.screen(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Calculator Feature",
+    "description": "This file describes calculator functionality",
+    "id": "calculator-feature",
+    "keyword": "Feature",
+    "uri": "classpath:GitCucumber/Gitfeat.feature",
+    "tags": []
+  }
+]
